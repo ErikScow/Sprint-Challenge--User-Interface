@@ -140,6 +140,46 @@ a{
     justify-content: center;
 }
 
+.box1{
+    background: teal !important;
+}
+
+.box2{
+    background: gold !important;
+}
+
+.box3{
+    background: rgb(88, 126, 128) !important;
+}
+
+.box4{
+    background: coral !important;
+}
+
+.box5{
+    background: crimson !important;
+}
+
+.box6{
+    background: forestgreen !important;
+}
+
+.box7{
+    background: darkorchid !important;
+}
+
+.box8{
+    background: hotpink !important;
+}
+
+.box9{
+    background: indigo !important;
+}
+
+.box10{
+    background: dodgerblue !important;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
