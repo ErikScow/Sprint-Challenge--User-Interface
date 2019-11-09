@@ -240,7 +240,7 @@ h2{
 }
 
 button{
-    padding: 7px 20px;
+    padding:0;
     border: 1px solid black;
     border-radius: 7px;
     background: white;
@@ -249,4 +249,57 @@ button{
 
 .about-content-bottom{
     padding: 20px 18px 30px;
+}
+
+
+
+.button-child{
+    padding: 7px 20px;
+
+    border-radius: 6px;
+}
+
+header nav a:hover{
+    animation: stretch;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+}
+
+footer nav a:hover{
+    animation: stretch-footer;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+}
+
+.button-child:hover{
+    animation:stretch;
+    animation-duration: .25s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes stretch{
+    0% {
+        background: white;
+        border-radius: 100%;
+        color:black;
+        border: none;
+    }
+    100% {
+        background: crimson;
+        border-radius: 6px;
+        color:white;
+    }
+}
+@keyframes stretch-footer{
+    0% {
+        background: black;
+        border-radius: 100%;
+        color:white;
+        border: none;
+    }
+    100% {
+        background: crimson;
+        border-radius: 6px;
+        color:white;
+    }
 }
