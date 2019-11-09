@@ -204,11 +204,49 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 15px 2%;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-content-top{
+    width:800px;
+    padding: 0px 18px 20px 18px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 10px;
+}
+
+.about-content-middle{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.about-content{
+    width: 50%;
+    padding: 18px;
+}
+
+hr{
+    border: 1px dashed black;
+}
+
+h2{
+    padding-top: 10px;
+}
+
+button{
+    padding: 7px 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background: white;
+    margin: 20px 0;
+}
+
+.about-content-bottom{
+    padding: 20px 18px 30px;
 }
